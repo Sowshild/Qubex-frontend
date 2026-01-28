@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://qubex-backend.onrender.com',
+    baseURL: 'import.meta.env.VITE_API_URL',
 });
 
 // Add a request interceptor to add the auth token to headers
