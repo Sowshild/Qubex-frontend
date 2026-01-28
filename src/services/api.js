@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8000',
+    baseURL: 'https://qubex-backend.onrender.com',
 });
 
 // Add a request interceptor to add the auth token to headers
